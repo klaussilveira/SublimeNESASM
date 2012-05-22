@@ -11,11 +11,11 @@ You can also install by cloning this repository into your Sublime Text 2 `Packag
 * Linux
 
 ```
-cd ~/Library/Application Support/Sublime Text 2/Packages/ && git clone git https://github.com/klaussilveira/SublimeNESASM.git
+cd ~/Library/Application Support/Sublime Text 2/Packages/ && git clone https://github.com/klaussilveira/SublimeNESASM.git
 ```
 
 * OS X
 
 ```
-cd ~/.config/sublime-text-2/Packages/ && git clone git https://github.com/klaussilveira/SublimeNESASM.git
+cd ~/.config/sublime-text-2/Packages/ && git clone https://github.com/klaussilveira/SublimeNESASM.git
 ```
