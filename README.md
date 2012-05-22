@@ -1,18 +1,21 @@
-# NESASM-Sublime
+# SublimeNESASM
 
-## Description
-
-NESASM-Sublime is NESASM-oriented assembly language syntax definition for [Sublime Text 2](http://www.sublimetext.com/). Support both ASM v1.0 and ASM v2.0 constructions.
+SublimeNESASM is NESASM-oriented assembly language syntax definition for [Sublime Text 2](http://www.sublimetext.com/). 
 
 ## How to install
 
-There are three ways to install this syntax definition.
-   
-1. Simplest way. Download repository content to your local disk and copy folder `AVR-ASM-Sublime` (renamed) to Sublime [packages directory](http://sublimetext.info/docs/en/basic_concepts.html#the-packages-directory).
-2. Another simplest way. `cd ~/.config/sublime-text-2/packages && git clone git://github.com/voventus/AVR-ASM-Sublime.git`
-3. Preferred way. Install this syntax definition through [package control](http://wbond.net/sublime_packages/package_control): Preferences &#9658; Package Control &#9658; Install Package &#9658; AVR-ASM-Sublime
+The easiest way to install SublimeNESASM is through [Package Control](http://wbond.net/sublime_packages/package_control). Once you install Package Control, restart Sublime Text and bring up the Command Palette. Select "Package Control: Install Package", wait while Package Control fetches the latest package list, then select SublimeNESASM when the list appears. The advantage of using this method is that Package Control will automatically keep SublimeNESASM up to date with the latest version.
 
-Restart Sublime if needed.
+You can also install by cloning this repository into your Sublime Text 2 `Packages` directory:
 
-### Usage ###
-As usual: View &#9658; Syntax &#9658; AVR ASM
+* Linux
+
+```
+cd ~/Library/Application Support/Sublime Text 2/Packages/ && git clone git https://github.com/klaussilveira/SublimeNESASM.git
+```
+
+* OS X
+
+```
+cd ~/.config/sublime-text-2/Packages/ && git clone git https://github.com/klaussilveira/SublimeNESASM.git
+```
