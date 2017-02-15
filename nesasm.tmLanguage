@@ -49,7 +49,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^[0-9a-zA-Z]+\b\:</string>
+			<string>[\s]?+[0-9a-zA-Z]+\b\:</string>
 			<key>name</key>
 			<string>entity.name.function</string>
 		</dict>
