@@ -55,7 +55,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[\s]?+[.]{1}[a-zA-Z]+\b</string>
+			<string>[\s]+[.]{1}[a-zA-Z]+\b</string>
 			<key>name</key>
 			<string>constant.language</string>
 		</dict>
